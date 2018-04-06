@@ -30,10 +30,8 @@ public class DemoApplication implements CommandLineRunner {
 		testProduct.setType("CUSTOM");
 		testProduct.setCategory("SPECIAL");
 
+		System.out.println("master");
 		productRepositoty.save(testProduct);
-
-		//test git control
-				/////////guoCCCC
 
 	}
 }
