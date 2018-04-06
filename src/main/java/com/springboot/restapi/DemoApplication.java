@@ -30,6 +30,7 @@ public class DemoApplication implements CommandLineRunner {
 		testProduct.setType("CUSTOM");
 		testProduct.setCategory("SPECIAL");
 
+		System.out.println("feature2");
 		System.out.println("feature1");
 		productRepositoty.save(testProduct);
 
